@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>spring-ignite-cache</module>
+        <module>spring-axon</module>
     </modules>
 
     <parent>
@@ -23,5 +24,14 @@
     <properties>
         <version.spring-boot>2.4.3</version.spring-boot>
         <version.ignite>2.9.1</version.ignite>
+        <version.lombok>1.18.12</version.lombok>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${version.lombok}</version>
+        </dependency>
+    </dependencies>
 </project>
